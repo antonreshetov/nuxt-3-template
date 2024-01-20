@@ -3,7 +3,11 @@
   "type": "module",
   "version": "0.0.0",
   "private": true,
+  "packageManager": "pnpm@8.14.1",
   "author": "Anton Reshetov",
+  "engines": {
+    "node": ">=20.10.0"
+  },
   "scripts": {
     "build": "nuxt build",
     "dev": "nuxt dev",
